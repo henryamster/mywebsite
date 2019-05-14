@@ -1,0 +1,243 @@
+body{
+  overflow-x: hidden;
+  min-width:340px;
+}
+.columns{
+  margin-left:8px !important;
+}
+.main {
+  font-family: "Century Gothic";
+  animation: Gradient 15s ease infinite;
+}
+#brand {
+  font-size: 1.3em;
+  display:block;
+  line-height: 1.5em;
+  letter-spacing: -0.1em;
+}
+#call {
+  color: #ffffff;
+
+  padding-top: 25px;
+  font-size: 8em;
+  font-family: "Oswald";
+}
+.overlay{
+  position: absolute;
+  left: 10%;
+  bottom: -3%;
+  z-index: 45;
+  font-size: 1.4em;
+}
+div.footer{
+  background-color:white;
+  font-family:"Century Gothic";
+  line-height: 1.5em;
+  letter-spacing: -0.1em;
+  font-size:3em;
+}
+.ol1{
+  font-size:8em;
+  letter-spacing: -.10em;
+  font-family: 'Century Gothic';
+}
+.ol2{
+  font-size: 3.3em;
+    line-height: 0.1em;
+    
+  font-family: 'Century Gothic';
+}
+.ol3{
+  font-size: 1.2em;
+  
+  font-family: 'Century Gothic';
+}
+.overlay-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  #call {
+    font-size: 3.5em;
+  }
+  .overlay{
+    display:none;
+  }
+  .overlay-mobile{
+    display: block;
+  }
+  .ol1{
+    font-size: 5em;
+  }
+  .ol2{
+    font-size: 2.3em;
+  }
+  .ol3{
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 650px) {
+  #call {
+    font-size: 1.1em;
+  }
+  .overlay{
+  display:none;}
+  div.footer{
+    font-size: 1.5em;
+  }
+
+}
+.animated-bg {
+  min-height: 420px;
+  background: url(https://66.media.tumblr.com/cf1dbd71f9ffbf7c226bbc237b3fc14d/tumblr_pj78czO5RG1xgv4g2o3_400.gif);
+  background-position: center;
+  animation: Gradient 15s ease infinite;
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.animated-bg-2{
+  background: url(https://66.media.tumblr.com/c65d92f2d08c9b7b78bc200408644114/tumblr_pj78czO5RG1xgv4g2o2_640.gif);
+  background-position: center;
+  animation: Gradient2 15s ease insfinite;
+  background-repeat: no-repeat;
+  background-size: 335px;
+  
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes Gradient2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50% {
+    background-position: 100% 50%;
+}
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.sway{
+   animation: Gradient3 15s ease infinite; 
+    text-shadow: 1px 1px #333;
+}
+
+
+@-webkit-keyframes Gradient3 {
+25%{
+  transform: rotate(1deg);}
+75%{
+  transform: rotate(-1deg);}
+}
+
+
+.shad {
+  text-shadow: 2px 2px #666;
+}
+.linkshad {
+  color: #fc3;
+  text-shadow: 2px 2px #963;
+}
+.os {
+  font-family: "Oswald";
+}
+.habitat {
+  background: #00b0d7;
+  width: 40.3vw;
+  padding: 2px 9px;
+  border-radius: 60px;
+  margin: 22px auto;
+  font-size: 1.4em;
+}
+
+.bigger{
+  font-size: 1.4em;
+  letter-spacing: -.085em;
+}
+
+@media screen and (min-width: 800px) {
+  .tl {
+    border-top-left-radius: 25px;
+  }
+}
+.minion {
+  font-family:'Minion Pro';
+  font-weight:800;
+}
+svg{
+ width:100%;
+}
+.t{
+  color: #ffffff;
+}
+#gh{width:300px;}
+
+.mt{
+  margin-top: 20px;
+}
+label{
+  font-size:1.2em;
+}
+input, textarea{
+  width:100%;
+  font-size:1em;
+  font-family:'Century Gothic';
+  font-weight:800;
+  border:0;
+  padding:4px;
+  border-radius:5px;
+  background:#FCFCFC;
+  margin: 2px;
+  border-bottom: 3px solid #DCDCDC;
+}
+#submit{
+  margin:20px 0 20px 0;
+}
+#alert{
+  color:red;
+  font-weight: 800;
+}
+.navbar{
+  padding: 1vw;
+}
+#videoBG{
+width:119vw;
+max-width:109vw;
+}
+#hf{
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.sevenh{
+  font-weight: 700;
+  
+}
+.p-top{
+  padding-top:50px;
+}
+.p-bottom{
+  padding-bottom: 50px;
+}
+
+
+a {
+  color: #607D8B !important;
+  text-decoration: underline !important;
+}
+
+#hablogo{
+  width: 46%;
+}
